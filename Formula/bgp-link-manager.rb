@@ -6,22 +6,22 @@ class BgpLinkManager < Formula
   on_macos do
     on_arm do
       url "https://github.com/rammses/bgp-display/releases/download/v0.1.0/bgp-link-manager-aarch64-apple-darwin.tar.gz"
-      sha256 "409b0bb1cdc356c34bf89e921a6ac660e99721a61d83045f907dd26ee65ba77b"
+      sha256 "0e7259fddc5fb02f19427b235f7b0d051d2ce8eaecc47a164634abf3f92cc613"
     end
     on_intel do
       url "https://github.com/rammses/bgp-display/releases/download/v0.1.0/bgp-link-manager-x86_64-apple-darwin.tar.gz"
-      sha256 "f2992485d7848ab972db8ff32f3e7d5e9454061cda4632fec5a4be681c76b5ee"
+      sha256 "ca817a6c42d6774c6546db75472f7b1c87e337cf959f59faf81b8202bf956610"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/rammses/bgp-display/releases/download/v0.1.0/bgp-link-manager-aarch64-linux-gnu.tar.gz"
-      sha256 "aca2816b58c0ba4cd3dbedec837b4bb95a0d62f29092596e54f81e6d2241ae3d"
+      sha256 "512b867d6ed08718310dcc9c406a8a106070a39002cbdd651d807b55165005ab"
     end
     on_intel do
       url "https://github.com/rammses/bgp-display/releases/download/v0.1.0/bgp-link-manager-x86_64-linux-gnu.tar.gz"
-      sha256 "7c9da2787f666c275c6e997d1adcdcce3563872aa30ff569d8a0933a39e993ce"
+      sha256 "d0cfbf4e602e8cd207853591a534edcaa12ddc377ad6368dc65077e9025c61a7"
     end
   end
 
