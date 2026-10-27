@@ -1,27 +1,27 @@
 class BgpLinkManager < Formula
   desc "TUI-based BGP configuration and state manager for multi-vendor routers"
   homepage "https://github.com/rammses/bgp-display"
-  version "0.3.0"
+  version "0.4.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/rammses/bgp-display/releases/download/v0.3.0/bgp-link-manager-aarch64-apple-darwin.tar.gz"
-      sha256 "4315cd992c12f09426fdf19fd22f6217b00a2e842cc4e81bcee9beec50e9581c"
+      url "https://github.com/rammses/bgp-display/releases/download/v0.4.0/bgp-link-manager-aarch64-apple-darwin.tar.gz"
+      sha256 "9fa243535602093d1c4f5299f6ecede7540202a3b9c3e7068e093844ce0d0177"
     end
     on_intel do
-      url "https://github.com/rammses/bgp-display/releases/download/v0.3.0/bgp-link-manager-x86_64-apple-darwin.tar.gz"
-      sha256 "06522d32665ee2f46e83df64400d74d8bf4166cbe17973b2f588b1fd9ff9c871"
+      url "https://github.com/rammses/bgp-display/releases/download/v0.4.0/bgp-link-manager-x86_64-apple-darwin.tar.gz"
+      sha256 "f8ff56fdf35361274856963c70d2d9de4f54912a1c8ccf3956ef0b6dcf2d12cc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rammses/bgp-display/releases/download/v0.3.0/bgp-link-manager-aarch64-linux-gnu.tar.gz"
-      sha256 "c91ff874faa373a3daebc9f25717259d8551dce70efc5ab021e01460b29a7a22"
+      url "https://github.com/rammses/bgp-display/releases/download/v0.4.0/bgp-link-manager-aarch64-linux-gnu.tar.gz"
+      sha256 "40e4f5b2752ab84399c0b4089b18e810bf80cac12f40b5ed13382ab7fedabe20"
     end
     on_intel do
-      url "https://github.com/rammses/bgp-display/releases/download/v0.3.0/bgp-link-manager-x86_64-linux-gnu.tar.gz"
-      sha256 "cc4deab538eabaecdc53941393b5b51be2188b920a9cd76f84e5384b932030a3"
+      url "https://github.com/rammses/bgp-display/releases/download/v0.4.0/bgp-link-manager-x86_64-linux-gnu.tar.gz"
+      sha256 "9125b4f7feea23efd24f4cc9321c8eeb2157eca1b36e1be72432325752096398"
     end
   end
 
